@@ -5,7 +5,260 @@
     padding: 0;
     color: #FFFFFF;
    
+    * {
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+   
     
+    
+}
+
+body {
+    margin: 0;
+    background-color: #1B152E;
+   
+}
+
+#barra ul {
+
+    margin: 0;
+    background-color: #E82F84;
+    list-style: none;
+    margin-top: 10px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#barra ul li {
+    display: inline;
+
+}
+
+#barra ul li a {
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#perfil1 {
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #59B467 0%, #4A7FBD 51.04%, #E82F84 100%);
+    border: 5px solid rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#perfil1 h1 {
+    font-size: small;
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+#caixadesempenho {
+
+    /* Rectangle 41 */
+
+
+position: absolute;
+width: 331px;
+height: 150px;
+left: 33px;
+top: 150px;
+
+background: linear-gradient(269.39deg, #E82F84 0.52%, #4A7FBD 51.03%, #59B467 99.47%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 37px rgba(255, 255, 255, 0.19);
+border-radius: 19px;
+
+
+
+
+}
+
+#caixadesempenho p {
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#caixadesempenho h1 {
+    margin-left: 35px;
+    font-size: 25px;
+    color: #1E1F41;
+}
+
+#caixadesempenho h2 {
+    margin-left: 33px;
+    font-size: 30px;
+}
+
+h4 {
+    margin-top: 210px;
+    margin-left: 35px;
+    font-size: 25px;
+}  
+
+.conteudo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+   line-height: 50px;
+   height:300px;
+   margin-left: 0%;
+   
+  }
+
+
+.cardseg{
+    background-color: #293760; 
+      text-align: center;
+      border-radius: 19px;
+      max-height: 50%;
+      width: 150px;
+      line-height: 50px;
+   height: 150px;
+   margin-left: 10px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .cardter{
+        background-color: #293760; 
+      text-align: center;
+      border-radius: 19px;
+      max-height: 50%;
+      width: 150px;
+   line-height: 50px;
+   height:150px;
+   margin-left: 8px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .cardqua{
+            background-color: #293760; 
+      text-align: center;
+      border-radius: 19px;
+      max-height: 50%;
+      width: 150px;
+   line-height: 50px;
+   height:150px;
+   margin-left: 8px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+    
+            .cardqui{
+                background-color: #293760; 
+      text-align: center;
+      border-radius: 19px;
+      max-height: 50%;
+      width: 150px;
+   line-height: 50px;
+   height:150px;
+   margin-left: 8px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                }
+                .cardsex{
+                    background-color: #293760; 
+      text-align: center;
+      border-radius: 19px;
+      max-height: 50%;
+      width: 150px;
+   line-height: 50px;
+   height:150px;
+   margin-left: 8px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    }
+
+#textos h2 {
+    margin-left: 30px;
+    font-size: 25px;
+
+}
+#textos h4 {
+    margin: 0px;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.53);
+    font-size: 17px ;
+    margin-top: -8px;
+}
+.graficos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+    
+  }
+  .cardum {
+     background-color: #293760;
+      width: 200px;
+      margin: 10px;
+      height: 200px;
+      text-align: center;
+      border-radius: 19px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+    .carddois {
+        background-color: #293760;
+         width: 200px;
+         margin: 10px;
+         height: 200px;
+         text-align: center;
+         border-radius: 19px;
+         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+       }
+    
+
+.carddois h2 {
+    font-size: 75px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.carddois p {
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 108px;
+
+}
+
+
+.voltar {
+    position: absolute;
+    width: 34px;
+    height: 21px;
+    left: 30px;
+    top: 27px;
+}
+
+.h2{
+    text-justify: center;
+}
+
+.cardum h3 {
+    font-size: 95px;
+    margin-top: 30px;
+    margin-left: -25px;
+
+}
+
+
+
+
+
+
     
 }
 
