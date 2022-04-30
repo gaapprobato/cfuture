@@ -6,14 +6,6 @@
     color: #FFFFFF;
     
 
-* {
-    font-family: 'Kanit', sans-serif;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    color: #FFFFFF;
-    
-
 
 }
 
@@ -62,114 +54,18 @@ border-radius: 26.5px;
 /* CONTINUAR */
 
 
-position: center;
+
 width: 139px;
 height: 34px;
-left: calc(50% - 139px/2);
+margin-left: 60px;
 top: 376px;
 
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 500;
+
+font-weight: 500px;
 font-size: 20px;
 line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
 
-color: #FDFDFD;
-
-}
-
-}
-
-body {
-    background-color: #1B152E;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 80px;
-    font-weight: bold;
-    font-size: 40px;
-
-}
-
-h4 {
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#voltar {
-    /* Rectangle 61 */
-
-
-position: absolute;
-width: 55px;
-height: 24px;
-left: 19px;
-top: 27px;
-
-background: #482279;
-border-radius: 12px;
-
-
-/* Voltar */
-
-
-position: absolute;
-width: 34px;
-height: 21px;
-left: 30px;
-top: 27px;
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-display: flex;
-align-items: center;
-
-color: rgb(168, 28, 255);
-
-
-}
-
-#continuar {
-    /* Rectangle 31 */
-
-
-position: absolute;
-width: 232px;
-height: 53px;
-left: 72px;
-top: 367px;
-
-background: linear-gradient(64.54deg, rgba(36, 211, 106, 0.75) -11.56%, rgba(74, 127, 189, 0.75) 24.07%, rgba(232, 47, 132, 0.75) 56.18%);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 26.5px;
-
-
-/* CONTINUAR */
-
-
-position: center;
-width: 139px;
-height: 34px;
-left: calc(50% - 139px/2);
-top: 376px;
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
+text-align: px;
 
 color: #FDFDFD;
 
